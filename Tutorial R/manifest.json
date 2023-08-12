@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "you can edit this addon",
+        "name": "Tutorial",
+        "uuid": "7d2d2816-af5e-4cbf-8cd7-5c2fc5a0e24f",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "da3af200-b6b3-442e-9e21-f8d7d2046464",
+            "version": [0, 0, 1]
+        }
+  ] 
+}
