@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "you can edit this addon",
+		"name": "Tutorial",
+		"uuid": "931d27fb-9200-4698-a53f-8d23339eba24",
+		"version": [ 1, 3, 0 ],
+		"min_engine_version": [ 1, 20, 0 ]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "7442a4d6-3f39-42a8-a42d-f74488f53b8f",
+			"version": [ 1, 0, 0 ]
+		},
+		{
+			"uuid": "4b1660c7-52fc-42a8-9de4-f9b5c3b48796",
+			"version": [ 1, 0, 0 ],
+			"type": "script",
+			"language": "javascript",
+			"entry": "main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.6.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+	}
