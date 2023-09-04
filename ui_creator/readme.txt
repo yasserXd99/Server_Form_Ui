@@ -1,4 +1,4 @@
-you can use uidx files in your addon,
+you can use ui_creator files in your addon,
 if you make custom button add this code
 "prevent_touch_input":true
 exemple
